@@ -1,0 +1,188 @@
+@charset "UTF-8";
+.contents {
+    padding-top: 15px;
+}
+
+.block {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+    border: solid 2px #EEEEEE;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px gray;
+    padding: 5px;
+}
+
+.block-title {
+    margin: 8px;
+}
+
+.view-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid white
+}
+
+.view-header {
+    width: 20%;
+    font-size: 12px;
+    color: white;
+    background-color: #CC3300;
+    border-collapse: collapse;
+    border: 2px solid white
+}
+
+.view-item {
+    width: 20%;
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid white;
+    background-color: #EEEEEE;
+}
+
+.view-header-title {
+    font-size: 12px;
+    color: white;
+    background-color: #CC3300;
+    border-collapse: collapse;
+    border: 2px solid white
+}
+
+.view-item-title {
+    border-collapse: collapse;
+    border: 2px solid white;
+    background-color: #EEEEEE;
+}
+
+.view-header-content {
+    font-size: 12px;
+    color: white;
+    background-color: #CC3300;
+    border-collapse: collapse;
+    border: 2px solid white
+}
+
+.view-item-content {
+    border-collapse: collapse;
+    border: 2px solid white;
+    background-color: #EEEEEE;
+}
+
+.form-item {
+    text-align: center;
+}
+
+.ticket-control-form {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.ctrl-button {
+    height: 32px;
+    border-radius: 6px;
+    font-size: 13px;
+}
+
+.ctrl-select {
+    width: 140px;
+    height: 30px;
+    font-size: 14px;
+    color: #333;
+    border: solid 2px #ccc;
+    border-radius: 6px;
+    outline: 0;
+    transition: 0.3s;
+}
+
+.ctrl-select:focus {
+    border: 2px solid #99CCCC;
+}
+
+.comment-table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid white
+}
+
+.comment-header {
+    display: table-cell;
+    width: 20%;
+    font-size: 12px;
+    font-weight: normal;
+    color: white;
+    background-color: #CC3300;
+    border-collapse: collapse;
+    border: 2px solid white
+}
+
+.comment-info {
+    margin-bottom: 10px;
+}
+
+.comment-author {
+    font-size: 17px;
+    margin-right: 8px;
+}
+
+.comment-form {
+    display: inline-block;
+}
+
+.comment-content {
+    display: table-cell;
+    width: 80%;
+    border-collapse: collapse;
+    border: 2px solid white;
+    background-color: #EEEEEE;
+}
+
+.comment-button {
+    width: 42px;
+    height: 30px;
+    border-radius: 6px;
+    font-size: 13px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#input-comment {
+    width: 98%;
+    width: 98%;
+    font-size: 15px;
+    color: #333;
+    border: solid 2px #ccc;
+    border-radius: 6px;
+    outline: 0;
+    transition: 0.3s;
+    -webkit-appearance: none;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#input-comment:focus {
+    border: 2px solid #99CCCC;
+}
+
+#input-add-button {
+    width: 90px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 23px;
+}
+
+#input-done-button {
+    width: 120px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 23px;
+}
+
+#input-done-button:focus {
+    outline: none;
+}
+
+.msg {
+    text-align: center;
+}

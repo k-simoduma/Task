@@ -1,0 +1,200 @@
+@charset "UTF-8";
+.contents {
+    padding-top: 15px;
+}
+
+.ticket-add-form {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px #EEEEEE;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px gray;
+    padding: 5px;
+}
+
+.ticket-edit-form {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px #EEEEEE;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px gray;
+    padding: 5px;
+}
+
+.form-title {
+    margin: 8px;
+}
+
+.form-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid white
+}
+
+.form-header {
+    font-size: 12px;
+    color: white;
+    background-color: #CC3300;
+    border-collapse: collapse;
+    border: 2px solid white
+}
+
+.form-item {
+    border-collapse: collapse;
+    border: 2px solid white;
+    background-color: #EEEEEE;
+}
+
+#ticket-category {
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+    color: #333;
+    border: solid 2px #ccc;
+    border-radius: 6px;
+    outline: 0;
+    transition: 0.3s;
+}
+
+#ticket-category:focus {
+    border: 2px solid #99CCCC;
+}
+
+#ticket-priority {
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+    color: #333;
+    border: solid 2px #ccc;
+    border-radius: 6px;
+    outline: 0;
+    transition: 0.3s;
+}
+
+#ticket-priority:focus {
+    border: 2px solid #99CCCC;
+}
+
+.date-label {
+    position: relative;
+    display: inline-block;
+    width: 210px;
+    height: 30px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.date-label::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: -34px;
+    width: 32px;
+    height: 32px;
+    background-color: black;
+    background-image: url("../image/calendar.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+#ticket-deadline {
+    position: relative;
+    padding: 0 10px;
+    width: 246px;
+    height: 25px;
+    border: 0;
+    background: transparent;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #999;
+}
+
+#ticket-deadline::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+#ticket-deadline::-webkit-clear-button {
+    -webkit-appearance: none;
+}
+
+#ticket-deadline::-webkit-calendar-picker-indicator {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 0;
+    width: 36px;
+    height: 36px;
+    background: transparent;
+    color: transparent;
+    cursor: pointer;
+}
+
+#ticket-deadline:focus {
+    outline: none;
+}
+
+#ticket-title {
+    width: 98%;
+    height: 25px;
+    font-size: 15px;
+    color: #333;
+    border: solid 2px #ccc;
+    border-radius: 6px;
+    outline: 0;
+    transition: 0.3s;
+    -webkit-appearance: none;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#ticket-title:focus {
+    border: 2px solid #99CCCC;
+}
+
+#ticket-content {
+    width: 98%;
+    font-size: 15px;
+    color: #333;
+    border: solid 2px #ccc;
+    border-radius: 6px;
+    outline: 0;
+    transition: 0.3s;
+    -webkit-appearance: none;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#ticket-content:focus {
+    border: 2px solid #99CCCC;
+}
+
+.form-button {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#add-button {
+    width: 120px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 23px;
+}
+
+#add-button:focus {
+    outline: none;
+}
+
+#done-button {
+    width: 120px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 23px;
+}
+
+#done-button:focus {
+    outline: none;
+}

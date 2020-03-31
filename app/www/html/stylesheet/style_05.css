@@ -1,0 +1,118 @@
+@charset "UTF-8";
+.contents {
+    padding-top: 15px;
+}
+
+.block {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+    border: solid 2px #EEEEEE;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px gray;
+    padding: 5px;
+}
+
+.block-title {
+    margin: 8px;
+}
+
+.filter-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid white
+}
+
+.filter-header {
+    width: 20%;
+    font-size: 12px;
+    color: white;
+    background-color: #CC3300;
+    border-collapse: collapse;
+    border: 2px solid white
+}
+
+.filter-item {
+    width: 20%;
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid white;
+    background-color: #EEEEEE;
+}
+
+.key-word {
+    text-align: right;
+    padding-top: 15px;
+}
+
+.filter-select {
+    width: 90%;
+    height: 30px;
+    font-size: 14px;
+    color: #333;
+    border: solid 2px #ccc;
+    border-radius: 6px;
+    outline: 0;
+    transition: 0.3s;
+}
+
+.filter-select:focus {
+    border: 2px solid #99CCCC;
+}
+
+.filter-key-word {
+    width: 240px;
+    height: 25px;
+    font-size: 15px;
+    color: #333;
+    border: solid 2px #ccc;
+    border-radius: 6px;
+    outline: 0;
+    transition: 0.3s;
+    -webkit-appearance: none;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.filter-key-word:focus {
+    border: 2px solid #99CCCC;
+}
+
+.filter-button {
+    width: 120px;
+    height: 35px;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.filter-button:focus {
+    outline: none;
+}
+
+.list-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid white
+}
+
+.ticket-num {
+    font-size: 13px;
+    width: 5%;
+    padding: 3px;
+    text-align: center;
+    background-color: #EEEEEE;
+}
+
+.ticket-title {
+    width: 94%;
+    padding: 3px;
+}
+
+.last-updated {
+    font-size: 11px;
+}
+
+.msg {
+    text-align: center;
+}

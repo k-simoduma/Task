@@ -1,0 +1,98 @@
+@charset "UTF-8";
+body {
+    font-family: 'Trebuchet';
+}
+
+header {
+    height: 110px;
+}
+
+main {
+    height: auto;
+    padding-bottom: 140px;
+}
+
+footer {
+    height: 70px;
+    border-top: solid 2px #CC3300;
+}
+
+.logo-link {
+    border-bottom: solid 2px #CC3300;
+}
+
+.menu-bar {
+    margin-top: 2px;
+    background-color: #CC3300;
+    height: 30px;
+    width: 100%;
+    border: solid 1px #ccc;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px gray;
+}
+
+.proj-name {
+    color: white;
+    font-size: 11px;
+    list-style: none;
+    float: left;
+    padding: 7px 70px 5px 10px;
+}
+
+.menu-item {
+    list-style: none;
+    float: left;
+    padding: 3px 20px 3px 20px;
+    cursor: pointer;
+}
+
+.menu-item a {
+    margin: 0 1em;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu-item a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.user-name {
+    width: 49%;
+    display: inline-block;
+    font-size: 11px;
+}
+
+.jump-form {
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+}
+
+#input-ticket-num {
+    width: 70px;
+    color: #333;
+    border: solid 2px #ccc;
+    border-radius: 6px;
+    outline: 0;
+    transition: 0.3s;
+    -webkit-appearance: none;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#input-ticket-num:focus {
+    border: 2px solid #99CCCC;
+}
+
+#jump-button {
+    height: 25px;
+    border-radius: 6px;
+    font-size: 10px;
+}
+
+#jump-button:focus {
+    outline: none;
+}
