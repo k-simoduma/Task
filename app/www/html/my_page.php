@@ -44,7 +44,7 @@ $ticket_manager = new \AppTask\TicketManeger();
     <div class="jump-form">
         <form action="ticket_jump_check.php" method="post">
             <input id="input-ticket-num" type="text" name="ticket-num">
-            <input id="jump-button" type="button" name="jump-btn" value="ジャンプ">
+            <input id="jump-button" type="submit" name="jump-btn" value="ジャンプ">
         </form>
     </div>
     <main>
